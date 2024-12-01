@@ -1,5 +1,6 @@
 package advent_2024.puzzles
 
+import utils.printResult
 import kotlin.math.absoluteValue
 
 object Day1Part1 {
@@ -11,7 +12,7 @@ object Day1Part1 {
             acc + (next.first - next.second).absoluteValue
         }
 
-        print(result)
+        printResult(1, 1, result)
     }
 
     private fun parseInput(input: String) : List<Pair<Int, Int>> {
@@ -29,16 +30,6 @@ object Day1Part1 {
         secondList.sort()
 
         return firstList.zip(secondList)
-    }
-
-    private fun print(result: Int) {
-        println("    Day 1 part 1")
-        println("-----------------------")
-        println("")
-        println("Result is : $result")
-        println("")
-        println("-----------------------")
-        println("")
     }
 }
 
