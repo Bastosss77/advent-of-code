@@ -1,4 +1,4 @@
-package puzzles
+package advent_2022.puzzles
 
 typealias Cargo = Array<Array<String>>
 

@@ -1,4 +1,4 @@
-package puzzles
+package advent_2022.puzzles
 
 fun day6() {
     println("December 6th (Part 1) : ${findMarkerPosition(input, 4)}")

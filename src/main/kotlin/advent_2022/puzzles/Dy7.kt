@@ -1,4 +1,4 @@
-package puzzles
+package advent_2022.puzzles
 
 import kotlin.IllegalArgumentException
 
